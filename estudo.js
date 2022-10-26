@@ -69,6 +69,6 @@ function total(){
       //document.write("Mês " + m + " valor: " + moeda(r) + "<br>");
    }
    
-   document.getElementById("total").innerHTML = "Total: "+moeda(r);
+   document.getElementById("total").innerHTML = "Total" +moeda(r);
    //document.write("O tatal é " + moeda(r));
 }
